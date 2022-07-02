@@ -1,0 +1,123 @@
+body {background-color: #fff;;font-size: 15px ;color: #444;
+    font-family: Verdana,SansSerif }
+    h5{font:lighter 14px Verdana,SansSerif;
+        color: #444}
+        h1 {font-size: 35px;
+        font-family: Verdana,SansSerif;
+        color: #444}
+        .a3 {color: #fff; font: Verdana,SansSerif}
+        .p5 {word-spacing: 10px;}
+        div { word-spacing: 3px;}
+        h2 {color: #3f3b45;font: normal 30px Arial; }
+        .shadow {box-shadow: 0px 3px 7px 3px #b8b5bc;}
+        .article1 {padding: 5px;
+        margin: 20px;
+        flex-grow:1;
+        align-content: center;
+        justify-content: center;
+        width: 20%}
+        .section1 { flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        display: flex;
+        align-items: center;}
+        section { flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        display: flex;
+        align-items: center;}
+        article {padding: 5px;
+        margin: 5px;
+        flex-grow:1;
+        align-content: center;
+        justify-content: center;}
+        a {color: #444; font: Arial; }
+        .active {color: #3a3a49; }
+        .ul1 {list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #9f8b8b;
+        position: sticky;
+        top: 0;}
+        li {float: left;}
+        li a {display: block;
+        color: white;
+        text-align: center;
+        padding: 16px 16px;
+        text-decoration: none;}
+        aside {width: 180px;
+        height: 700px;
+        align-self: center;
+        float: left;
+        padding: 10px;
+         margin-top: 150px}
+         table { background-color: #f6f6f6;
+         max-width:900px}
+        .hellobox {
+        justify-content: left;
+        align-items: center;
+        height: 300px;
+        background-position-y: 50%;
+        background-position-x: 50%;
+        background-size: cover;
+        background-image: url("../info.фото/italy6.jpg") ;}
+        button {
+        background-color: #b4a8a8;
+        border: none;
+        color: white;
+        padding: 12px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 13px;
+        margin: 4px 2px;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);}
+        footer{
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #b4a8a8;
+        height: auto;
+        max-width: available;
+        padding-top: 40px;
+        color: #fff;}
+        .footer-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    line-height: 3rem;}
+.footer-content p{
+    max-width: 500px;
+    margin: 5px auto;
+    line-height: 25px;
+    font-size: 13px;
+    color: #ffffff;}
+.footer-bottom{
+    background: #9f8b8b;
+    max-width: 1390px;
+    padding: 20px;
+padding-bottom: 70px;
+    text-align: center;}
+.footer-menu{
+  float: right;}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;}
+.footer-menu ul li a{
+  color: #cfd2d6;
+  text-decoration: none;}
+
+@media (max-width:500px) {
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;}  }

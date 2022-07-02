@@ -1,0 +1,207 @@
+body {background-color: #fff;;font-size: 15px ;color: #444;
+    font-family: Verdana,SansSerif }
+    div {word-spacing: 3px;}
+    .a1 {color: #fff; font: Georgia; text-decoration: none;}
+    .shadow {box-shadow: 0px 3px 7px 3px #b8b5bc;}
+    .shadowtext { text-shadow: 10px 8px 10px #302b40;}
+    a {color: #302b40; font: Arial; }
+    .active {color: #3a3a49; }
+    .ul1 {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9f8b8b;
+    position: sticky;
+    top: 0;}
+    li {float: left;}
+    li a {display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;}
+
+    h1 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0.3rem;
+    margin-left: 10px;
+    color: #fff;
+    font: "arial black";}
+.a5 {display: block;
+    color: #343434;
+    text-align: left;
+    padding: 7px;
+font: 16px;}
+    aside {
+    background: #f0f0f0;
+    width: 200px;
+    height: 150px;
+    align-self: center;
+    float: left;
+        margin: 50px;
+    border-radius: 2%}
+    .hellobox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 38rem;
+    background-position-y: 50%;
+    background-position-x: 50%;
+    background-size: cover;
+    background-image: url("../mywebsite.фото/рим12.jpg") ;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3)}
+    h2 {font-size: 1.5em;
+        text-align: left;
+    color: #3f3b45;
+    font: Arial}
+    .img2 {margin-left: 55px}
+
+    h4 {font-size: 1em;
+    position: relative;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 5.0rem;
+    color: #fff;
+    font: "arial black" italic}
+
+    h3 {text-align: center}
+    article {
+    padding: 30px;
+    margin: 50px;
+    flex-grow:1;
+        flex-wrap: wrap;
+    width: 200px;
+    align-content: center}
+        section { flex-direction: row;
+    flex-wrap: wrap;
+        justify-content: space-around;
+    display: flex;}
+    .article1 {
+    padding: 12px;
+    margin: 20px;
+    flex-grow:1;
+    justify-content: space-around}
+
+
+
+    button {
+    background-color: #5a5a5a;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);}
+
+.text-center {
+  text-align: center;}
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #b4a8a8;
+    height: auto;
+    max-width: available;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    line-height: 3rem;}
+.footer-content p{
+    max-width: 500px;
+    margin: 5px auto;
+    line-height: 25px;
+    font-size: 13px;
+    color: #ffffff;}
+.footer-bottom{
+    background: #9f8b8b;
+    max-width: 1390px;
+    padding: 20px;
+padding-bottom: 70px;
+    text-align: center;}
+.footer-menu{
+  float: right;}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;}
+.footer-menu ul li a{
+  color: #cfd2d6;
+  text-decoration: none;}
+
+@media (max-width:500px) {
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;}  }
+
+
+
+      .hellobox1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 130px;
+          width: 200px;
+    background-position-y: 50%;
+    background-position-x: 50%;
+    background-size: 210px;
+          box-shadow: 0px 3px 7px 3px #b8b5bc;
+                     opacity: 0.8;
+       background-image: url("../mywebsite.фото/rome.jpg");}
+      .hellobox2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+       height: 130px;
+          width: 200px;
+    background-position-y: 50%;
+    background-position-x: 50%;
+    background-size: 210px;
+          box-shadow: 0px 3px 7px 3px #b8b5bc;
+                     opacity: 0.8;
+       background-image: url("../mywebsite.фото/venice.jpg");}
+       .hellobox3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+       height: 130px;
+          width: 200px;
+    background-position-y: 50%;
+    background-position-x: 50%;
+    background-size: 210px;
+           box-shadow: 0px 3px 7px 3px #b8b5bc;
+           opacity: 0.8;
+       background-image: url("../mywebsite.фото/neapolitan.jpg") ;
+       }
+        .hellobox4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+       height: 130px;
+          width: 200px;
+    background-position-y: 50%;
+    background-position-x: 50%;
+    background-size: 210px;
+            box-shadow: 0px 3px 7px 3px #b8b5bc;
+                       opacity: 0.8;
+       background-image: url("../mywebsite.фото/milan.jpeg");}
